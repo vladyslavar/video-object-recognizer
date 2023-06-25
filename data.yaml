@@ -1,0 +1,14 @@
+train: D:/1Personal/petproj/traffic_lights_recognizer/dataset/train/images
+val: D:/1Personal/petproj/traffic_lights_recognizer/dataset/valid/images
+test: D:/1Personal/petproj/traffic_lights_recognizer/dataset/test/images
+
+
+nc: 3
+names: ['green', 'red', 'yellow']
+
+roboflow:
+  workspace: version-ou-je-vais-merge
+  project: traffic-lights-qh0vp
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/version-ou-je-vais-merge/traffic-lights-qh0vp/dataset/1
